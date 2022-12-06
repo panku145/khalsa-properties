@@ -985,5 +985,18 @@ a:focus {
   display: none;
 }
 
+.plot-details {
+  display: flex;
+  align-items: center;
+}
+.plot-details ul {
+  padding-left: 1.2rem;
+  padding-right: 3px;
+}
+
+.plot-details ul li {
+  font-size: 14px;
+}
+
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
