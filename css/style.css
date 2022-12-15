@@ -1000,8 +1000,28 @@ a:focus {
 
 /* Read more button */
 
+.read-more-btn{
+  padding: 8px 35px;
+  background-color: transparent;
+  color: #3554d1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #3554d1;
+  border-radius: 25px;
+}
+
+.read-more-btn:hover{
+  background-color: #3554d1;
+  border-color: transparent;
+  color: #ffffff;
+}
+
 details{
   display:inline;
+}
+
+details p{
+margin-top: 0px;
 }
 
 details {
@@ -1010,7 +1030,6 @@ details {
 details summary {
   display:block;
   cursor: pointer;
-  color: red;
 }
 details summary:focus {
   outline:none;
