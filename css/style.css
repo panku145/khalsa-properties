@@ -392,6 +392,7 @@ a:focus {
 
 .about_section .detail-box p {
   margin-top: 15px;
+  margin-bottom: 0pc !important;
 }
 
 .about_section .detail-box a {
@@ -1008,6 +1009,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid #3554d1;
   border-radius: 25px;
+  margin-top:75px;
 }
 
 .read-more-btn:hover{
@@ -1021,7 +1023,8 @@ details{
 }
 
 details p{
-margin-top: 0px;
+  margin-top: 0px !important;
+  
 }
 
 details {
@@ -1046,7 +1049,7 @@ details[open] summary {
   left:0;
 }
 
-details #open{padding-left:5px;text-align:middle;}
+details #open{text-align:middle;}
 details #open:after{
     display: inline-block;
     position:relative;
