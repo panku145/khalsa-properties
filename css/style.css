@@ -1059,7 +1059,7 @@ details #open:after{
 }
 details[open] #open{display:none;}
 details #close{display:none;}
-details[open] #close{display:block;}
+details[open] #close{display:none;}
 ::-webkit-details-marker {display: none;}
 
 @keyframes open {
