@@ -1009,7 +1009,7 @@ a:focus {
   transition: all 0.3s;
   border: 1px solid #3554d1;
   border-radius: 25px;
-  margin-top:75px;
+  margin-top:40px !important;
 }
 
 .read-more-btn:hover{
